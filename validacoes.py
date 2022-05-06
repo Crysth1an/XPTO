@@ -134,7 +134,7 @@ def valida_qtde_vagas(vagas, vaga, candidato):
     for v in vagas:  # para cada indice / vaga na minha lista de vagas
         if v.id == vaga:  # se minha vaga.id for igual == minha vaga
             if v.validar_vagas() == False:  # se minha validacao for false, adiciono o candidato
-                v.candidatos.append(candidato)
+                v.candidatos.append(candidato) #adicionando o candidato na minha lista vagas.candidatos
             else:
                 return 'ERRO! Quantidade de candidatos limite!'
             isValidID = True
@@ -148,13 +148,13 @@ def duplicidade_cpf(cpf):
     try:
         file = open(arq, 'rt')
         dado = file.readlines()
-        for l in dado:
-            x = l.split(';')
-            for i in x:
-                if (cpf in i):
-                    return True
+        for l in dado: #para cada indice nos meus dados
+            x = l.split(';') # x recebe l.splitado
+            for i in x:         # para cada indice no meu x = cada dado
+                if (cpf in i):  # se meu cpf etiver no meu indice
+                    return True # retorna True
     except:
-        return False
+        return False            # senao retorna False
 
 
 def leia_inteiro(texto):
