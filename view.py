@@ -46,9 +46,3 @@ def tabela_grid(arq):
     x = tabulate(new_dado, headers=['Nome', 'Sobrenome', 'CPF', 'Data de Nascimento', 'Maior de Idade?', 'Vaga'],tablefmt="grid")
     return x
 
-
-
-
-###### testando as funcoes
-# menu_trainee()
-# menu_vagas(vagas)
