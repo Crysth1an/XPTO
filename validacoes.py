@@ -1,8 +1,6 @@
 import re
 from datetime import date, datetime
 
-arq = 'bancodedados.txt'
-
 
 def valida_nome():
     while True:
