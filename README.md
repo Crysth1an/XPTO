@@ -1,11 +1,7 @@
 
 <div align="center">
-<img src=https://imgur.com/a/1aKPCfj width="700px" />
+<img src=![XPTO (3)](https://user-images.githubusercontent.com/74897346/167162275-6a3f360a-ed24-44fe-9711-7515bf48c753.png) width="700px" heigth="500px"/>
 </div>
 
 
-<span align="center">
 
-## <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"> Hellooo Helloo World! </h2>
-
-</span>
